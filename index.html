@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word of the Day</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        #phonetic {
+            color: gray;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 id="word">Loading...</h1>
+
+<p id="phonetic"></p>
+
+<h3>Definition</h3>
+<p id="definition"></p>
+
+<h3>Example</h3>
+<p id="example"></p>
+
+<button id="playAudio" hidden>
+    🔊 Pronunciation
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
